@@ -46,7 +46,7 @@
         text-align: left;
     }
     .page-container{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         text-align: center;
     }
     .page-container > *:first-child{
@@ -55,4 +55,8 @@
     .l-heading{
         font-size: 2rem;
     }
+}
+
+@media (max-width: 500px){
+
 }
